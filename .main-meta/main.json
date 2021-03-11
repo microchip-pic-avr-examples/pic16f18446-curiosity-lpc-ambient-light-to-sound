@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f18446-curiosity-lpc-ambient-light-to-sound",
+        "version": "1.0.1",
+        "displayName": "PIC16F18446 Ambient Light to Sound",
+        "projectName": "pic16f18446-curiosity-lpc-ambient-light-to-sound",
+        "shortDescription": "In this demo, the ADCC is used to read the Ambient Light Click Board™, then this value is used with an Numerically Controlled Oscillator (NCO) to generate a tone with variable pitch according to the light intensity.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.2.99"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC16F18446",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "ADCC"
+            ]
         ],
         "peripherals": [
-            "",""
+            "ADCC"
         ],
         "keywords": [
-            "",
-            ""			
+            "Ambient Light"		
         ],
 		"additionalData": {
 			"longDescription": {
