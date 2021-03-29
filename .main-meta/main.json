@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-curiosity-lpc-ambient-light-to-sound",
         "version": "1.0.1",
-        "displayName": "PIC16F18446 Ambient Light to Sound",
+        "displayName": "Ambient Light to Sound using ADCC",
         "projectName": "pic16f18446-curiosity-lpc-ambient-light-to-sound",
         "shortDescription": "In this demo, the ADCC is used to read the Ambient Light Click Board™, then this value is used with an Numerically Controlled Oscillator (NCO) to generate a tone with variable pitch according to the light intensity.",
         "ide": {
@@ -39,7 +39,8 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADCC"
+               "Peripherals",
+			   "ADCC"
             ]
         ],
         "peripherals": [

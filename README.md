@@ -1,7 +1,6 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# PIC16F18446 Ambient Light to Sound
+# Ambient Light to Sound using ADCC
 
 The PIC16F18446 features a 12-bit ADC with Computation (ADCC) module. In this demo, the ADCC is used to read the Ambient Light Click Board™, then this value is used with an Numerically Controlled Oscillator (NCO) to generate a tone with variable pitch according to the light intensity.
 
